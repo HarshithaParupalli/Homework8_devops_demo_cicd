@@ -36,5 +36,5 @@ jobs:
 
     - name: Build and push Docker image
       run: |
-        docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/Homework8_devops_demo_cicd:latest .
-        docker push ${{ secrets.DOCKERHUB_USERNAME }}/Homework8_devops_demo_cicd:latest
+        docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/homework8_devops_demo_cicd:latest .
+        docker push ${{ secrets.DOCKERHUB_USERNAME }}/homework8_devops_demo_cicd:latest
