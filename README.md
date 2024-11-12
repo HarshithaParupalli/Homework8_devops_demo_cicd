@@ -9,16 +9,6 @@ The pipeline includes the following steps:
 2. **Docker Login**: Authenticate to DockerHub using secrets.
 3. **Build and Push Docker Image**: Build the Docker image and push it to DockerHub.
 
-## Folder Structure
-
-devops_demo_cicd/
-├── app.py                 # Main application file
-├── requirements.txt       # Project dependencies
-├── Dockerfile             # Docker configuration
-└── .github/
-    └── workflows/
-        └── ci_cd.yml      # GitHub Actions workflow file
-
 ## Getting Started
 
 ### Prerequisites
